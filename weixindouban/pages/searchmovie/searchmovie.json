@@ -1,0 +1,8 @@
+{
+  "usingComponents": {
+      "component-searchOneMovie": "../../components/searchonemovie"
+  },
+  "navigationBarBackgroundColor": "#41bd55",
+  "navigationBarTitleText": "搜索"
+  
+}

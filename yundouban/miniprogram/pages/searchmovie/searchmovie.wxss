@@ -1,0 +1,18 @@
+/* pages/searchmovie/searchmovie.wxss */
+
+
+.searchcontent{
+  padding: 16rpx 36rpx;
+  background-color: #42bd56
+}
+.searchInput{
+  background-color: white;
+  height: 60rpx;
+  border-radius: 10rpx;
+  padding-left: 70rpx;
+}
+.searchPageIcon{
+  position: absolute;
+  left: 60rpx;
+  top:28rpx;
+}

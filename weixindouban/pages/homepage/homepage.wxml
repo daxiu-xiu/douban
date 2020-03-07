@@ -1,0 +1,18 @@
+<!--这里放你的内容-->
+
+ <scroll-view scroll-y>
+<view class='content'>
+    <navigator class='searchbtn' url='../searchmovie/searchmovie'>
+      <text>搜索</text>
+      <icon type="search" size="20" class='searchicon' />
+    </navigator>
+
+
+</view>
+<view>
+  <component-movielist movies='{{movies}}' title='正在热映'></component-movielist>
+  <component-movielist movies='{{movies}}' title='即将上映'></component-movielist>
+  <component-movielist movies='{{movies}}' title='即将上映'></component-movielist>
+ 
+</view>
+ </scroll-view>

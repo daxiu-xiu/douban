@@ -1,0 +1,8 @@
+/* pages/hotmovie/hotmovie.wxss */
+.hotlist{
+  display: flex;
+  flex-wrap: wrap;
+}
+.onemovieviex{
+  margin: 42rpx;
+}

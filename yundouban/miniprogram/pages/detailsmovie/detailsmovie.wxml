@@ -1,0 +1,23 @@
+<view class='details_content'>
+  <view class='details_top'>
+    <image class='details_img' src='{{detailsmovie.movie.movieImg}}'></image>
+
+    <view>
+      <text class='details_title'>{{detailsmovie.movie.title}}</text>
+      <view>
+        <text class='details_type'>{{detailsmovie.movie.genres}}/中国/片长{{detailsmovie.movie.durations}}分钟</text>
+
+      </view>
+      <view class='xiangkan'>
+        <view class='xiangkansomll xiangkanleft'>
+        <image class='xkicon' src='../../assets/xiangkan.png'></image>
+          <text>想看</text>
+        </view>
+        <view  class='xiangkansomll'>
+        <image class='xkicon' src='../../assets/xingxing1.png'></image>
+          <text>看过</text>
+        </view>
+      </view>
+    </view>
+  </view>
+</view>

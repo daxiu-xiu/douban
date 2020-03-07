@@ -1,0 +1,9 @@
+<view>
+  <scroll-view scroll-y="true">
+    <view class='hotlist'>
+      <view wx:for='{{movies.rows}}' wx:key='index' class='onemovieviex'>
+        <onemovie item='{{item}}'></onemovie>
+      </view>
+    </view>
+  </scroll-view>
+</view>

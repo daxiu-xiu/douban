@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+    "component-tag-name": "./onemovie"
+  },
+  "component": true
+}

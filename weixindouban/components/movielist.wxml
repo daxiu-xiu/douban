@@ -1,0 +1,14 @@
+<view>
+  <view class='title'>
+    <text>{{title}}</text>
+    <navigator class='more' url='../../pages/hotmovie/hotmovie?tt={{title}}'>查看更多></navigator>
+  </view>
+  <scroll-view class='list' scroll-x="true">
+    <view style="display:flex">
+      <view wx:for='{{movies}}' wx:key='index' style=" margin-right: 26rpx">
+        <component-tag-name item='{{item}}'></component-tag-name>
+      </view>
+    </view>
+
+  </scroll-view>
+</view>

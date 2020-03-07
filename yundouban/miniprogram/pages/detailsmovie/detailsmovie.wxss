@@ -1,0 +1,55 @@
+/* pages/detailsmovie/detailsmovie.wxss */
+
+.details_content {
+  background-color: #f5f4f9;
+  padding: 40rpx 40rpx 40rpx 31rpx;
+}
+
+.details_top {
+  display: flex;
+  flex-direction: row;
+}
+
+.details_img {
+  width: 204rpx;
+  height: 286rpx;
+  margin-right: 30rpx;
+}
+
+.details_title {
+  font-size: 50rpx;
+  font-weight: bold;
+}
+
+.details_type {
+  color: #949394;
+  font-size: 26rpx;
+}
+
+.xiangkan {
+  display: flex;
+  flex-direction: row;
+  color: #4c4c4c;
+  margin-top: 46rpx;
+}
+
+.xiangkansomll {
+  width: 214rpx;
+  height: 78rpx;
+  background-color: #ffffff;
+  border-radius: 10rpx;
+  font-size: 32rpx;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center
+}
+.xiangkanleft{
+  margin-right: 20rpx;
+}
+.xkicon{
+  width: 38rpx;
+  height: 38rpx;
+  margin-right: 10rpx
+
+}

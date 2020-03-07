@@ -1,0 +1,21 @@
+<!-- 一个电影的明细 -->
+<view class='oneMoviecontent'>
+
+  <view class='detailOnemovie'>
+    <image src='{{item.movieImg}}' class='searchimg'></image>
+
+    <view class='searchtext'>
+      <text class='searchpage_titel'>{{item.title}}</text>
+
+      <view style='width:160rpx'>
+        <component-stars stars='{{item.stars}}' average='{{item.average}}'>
+        </component-stars>
+      </view>
+      <text class='mingxitext' style="font-size:26rpx">{{item.year}}/{{item.genres}}/{{item.casts}}</text>
+
+
+
+    </view>
+  </view>
+
+</view>

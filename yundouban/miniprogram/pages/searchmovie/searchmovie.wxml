@@ -1,0 +1,13 @@
+<!--pages/searchmovie/searchmovie.wxml-->
+<!-- <text>pages/searchmovie/searchmovie.wxml</text> -->
+
+
+
+<view class='searchcontent'>
+  <icon type='search' size='18' class='searchPageIcon'></icon>
+  <input class='searchInput' placeholder="搜索" value="{{title}}" bindinput='changevalue'></input>
+</view>
+
+<view wx:for='{{searchmovies}}' wx:key='index'>
+  <component-searchOneMovie item='{{item}}'></component-searchOneMovie>
+</view>

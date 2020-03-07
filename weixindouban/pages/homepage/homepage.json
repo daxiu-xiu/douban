@@ -1,0 +1,7 @@
+{
+  "usingComponents": {
+    "component-movielist": "../../components/movielist"
+  },
+    "navigationBarBackgroundColor": "#41bd55",
+    "navigationBarTitleText": "首页"
+}

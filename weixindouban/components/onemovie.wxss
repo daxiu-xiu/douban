@@ -1,0 +1,22 @@
+/* components/onemovie.wxss */
+
+.onemovie {
+  width: 165rpx;
+  font-size: 0;
+}
+
+.img {
+  width: 164rpx;
+  height: 226rpx;
+}
+
+.movietitle {
+  font-size: 30rpx;
+  white-space: nowrap;
+  display: block;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  word-break: break-all; 
+ 
+}
+

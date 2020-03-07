@@ -1,0 +1,19 @@
+/* components/stars.wxss */
+/* 星星样式 */
+.stars {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  /* align-content: center; */
+}
+
+.startimg {
+  width: 20rpx;
+  height: 20rpx;
+}
+
+.grade {
+  font-size: 20rpx;
+  color: #878787;
+}

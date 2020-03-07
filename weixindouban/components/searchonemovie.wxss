@@ -1,0 +1,36 @@
+/* components/searchonemovie.wxss */
+
+.detailOnemovie {
+  padding: 30rpx 0;
+  display: flex;
+  flex-direction: row;
+  font-size: 0;
+  border-bottom: 1rpx solid #d8d8d8;
+}
+
+.oneMoviecontent {
+  padding-left: 28rpx;
+  padding-right: 18rpx;
+}
+
+.searchimg {
+  width: 124rpx;
+  height: 166rpx;
+}
+
+.searchpage_titel {
+  font-size: 36rpx;
+}
+
+.searchtext {
+  margin-left: 30rpx;
+}
+
+.mingxitext {
+  width: 530rpx;
+  display: -webkit-box;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+}

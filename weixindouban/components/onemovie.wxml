@@ -1,0 +1,9 @@
+<view class='onemovie'>
+  <navigator url='../../pages/detailsmovie/detailsmovie' data-movie='{{item}}' bindtap='DELmovie'>
+    <image src='{{item.movieImg}}' class='img'></image>
+  </navigator>
+
+  <text class='movietitle'>{{item.title}}</text>
+  <component-stars stars='{{item.stars}}' average='{{item.average}}'></component-stars>
+
+</view>
